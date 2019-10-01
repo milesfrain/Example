@@ -1,0 +1,8 @@
+# This file is machine-generated - editing it directly is not advised
+
+[[ExampleDep]]
+git-tree-sha1 = "971206cdc4414d457cae400742e0e7edc2ba380e"
+repo-rev = "newfeature"
+repo-url = "https://github.com/milesfrain/ExampleDep.git"
+uuid = "68615898-9c88-441a-b64b-fd6f0adbb1ef"
+version = "0.1.0"

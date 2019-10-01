@@ -1,0 +1,12 @@
+name = "Example"
+uuid = "d4a85bec-0970-4519-9c71-52bfdb6d30e3"
+version = "0.1.0"
+
+[deps]
+ExampleDep = "68615898-9c88-441a-b64b-fd6f0adbb1ef"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
