@@ -1,9 +1,6 @@
 using Pkg
-tempdir = mktempdir()
-Pkg.activate(tempdir)
-Pkg.develop(PackageSpec(path=joinpath(@__DIR__, "..")))
-Pkg.add(["BenchmarkTools", "PkgBenchmark"])
-#Pkg.resolve()
+Pkg.activate(@__DIR__)
+Pkg.instantiate()
 
 using Example
 using BenchmarkTools
